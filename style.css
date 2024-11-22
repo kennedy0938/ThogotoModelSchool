@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Navigation Bar */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #333;
+    color: white;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Hero Section */
+  header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+  }
+  
+  .hero-text {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #00bcd4;
+    color: white;
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Gallery */
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .gallery-container img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .gallery-container img:hover {
+    transform: scale(1.1);
+  }
+  #contact {
+    background-color: #f0f8ff; /* Light blue background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    color: #333333; /* Dark gray text */
+  }
+  
+  #contact h2 {
+    color: #004080; /* Navy blue heading */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #contact p {
+    font-size: 1.1em;
+    line-height: 1.6;
+  }
+  
+  #contact input,
+  #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  #contact  {
+    background-color: #333; /* Navy blue button */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #contact button:hover {
+    background-color: #e9eef3; /* Slightly darker navy on hover */
+  }
+    
